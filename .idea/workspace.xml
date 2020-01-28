@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17e93d99-5cf0-489b-8f16-1ac4cc1447db" name="Default Changelist" comment="" />
+    <list default="true" id="17e93d99-5cf0-489b-8f16-1ac4cc1447db" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BusStop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BusStop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BusStopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BusStopTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BusTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BusTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Bus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Bus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BusStop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BusStop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BusStopTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BusStopTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BusTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BusTest.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +28,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -24,7 +40,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1X1kO7hswZ5PFWPo7winpb8jFWe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -42,7 +60,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BusStopTest.canRemovePerson">
+  <component name="RunManager" selected="JUnit.BusTest.canPickupPassengerFromQueue">
+    <configuration name="BusStopTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BusStop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BusStopTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BusStopTest.canAddPerson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BusStop" />
       <option name="PACKAGE_NAME" value="" />
@@ -63,22 +90,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BusStopTest.hasName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BusTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BusStop" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BusStopTest" />
-      <option name="METHOD_NAME" value="hasName" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BusStopTest.queueStartsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BusStop" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BusStopTest" />
-      <option name="METHOD_NAME" value="queueStartsEmpty" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="BusTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -95,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BusStopTest.canRemovePerson" />
         <item itemvalue="JUnit.BusTest.canPickupPassengerFromQueue" />
+        <item itemvalue="JUnit.BusStopTest.canRemovePerson" />
+        <item itemvalue="JUnit.BusStopTest" />
+        <item itemvalue="JUnit.BusTest" />
         <item itemvalue="JUnit.BusStopTest.canAddPerson" />
-        <item itemvalue="JUnit.BusStopTest.queueStartsEmpty" />
-        <item itemvalue="JUnit.BusStopTest.hasName" />
       </list>
     </recent_temporary>
   </component>
@@ -115,5 +131,16 @@
       <updated>1580220952746</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

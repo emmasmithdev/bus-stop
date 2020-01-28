@@ -16,10 +16,6 @@ public class Bus {
         return destination;
     }
 
-    public int getCapacity() {
-        return capacity;
-    }
-
 
     public int passengerCount() {
        return this.passengers.size();
@@ -35,8 +31,9 @@ public class Bus {
         this.passengers.remove(person);
     }
 
-    public void pickUpFromBustop(BusStop busStop) {
-        Person newPassenger = busStop.leaveQueue();
+    public void pickUpFromBuStop(BusStop busStop) {
+        Person newPassenger = busStop.leaveQueue(0);
         addPassenger(newPassenger);
     }
+
 }

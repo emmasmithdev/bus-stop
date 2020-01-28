@@ -22,7 +22,7 @@ public class BusStop {
         this.queue.add(person);
     }
 
-    public Person leaveQueue() {
+    public Person leaveQueue(int index) {
         return this.queue.remove(0);
     }
 }
